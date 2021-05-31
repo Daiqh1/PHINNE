@@ -4,18 +4,20 @@
 
 本项目使用anaconda+python3.7
 运行项目所需的几个Python包<br>
-*gensim<br>
-*numpy<br>
-*scikit-learn<br>
-*imlearn<br>
-*pandas<br>
+
+* gensim<br>
+* numpy<br>
+* scikit-learn<br>
+* imlearn<br>
+* pandas<br>
+
 这些Python包可以使用pip或conda以以下示例进行安装：<br>
-···
+```
 pip install -r requirements.txt
-···
-···
+```
+```
 conda install --yes --file requirements.txt
-···
+```
 
 ***
 ## 文件说明
