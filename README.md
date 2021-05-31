@@ -1,6 +1,6 @@
 # VHINSGE
 
-##环境配置
+## 环境配置
 
 本项目使用anaconda+python3.7
 运行项目所需的几个Python包<br>
@@ -9,7 +9,7 @@
 *scikit-learn<br>
 *imlearn<br>
 *pandas<br>
-这些Python包可以使用pip或conda以以下示例进行安装：
+这些Python包可以使用pip或conda以以下示例进行安装：<br>
 ···
 pip install -r requirements.txt
 ···
