@@ -1,14 +1,14 @@
 # VHINSGE
 
-#环境配置
-##
+##环境配置
+
 本项目使用anaconda+python3.7
-几个必须的Python包
-*gensim
-*numpy
-*scikit-learn
-*imlearn
-*pandas
+运行项目所需的几个Python包<br>
+*gensim<br>
+*numpy<br>
+*scikit-learn<br>
+*imlearn<br>
+*pandas<br>
 
 这是一段普通的文本，  
 ***
