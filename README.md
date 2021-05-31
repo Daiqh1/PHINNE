@@ -56,7 +56,7 @@ python VHIs_Main_nn4.py --data 728_129
 python VHIs_Main_nn4.py --data 32_119
 ```
 ```
-python VHIs_Main_nn4.py --data 312_119
+python VHIs_Main_nn4.py --data 312_747
 ```
 ```
 python VHIs_Main_nn.py  --data 1393_229
