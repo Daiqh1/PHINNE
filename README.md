@@ -39,14 +39,14 @@ conda install --yes --file requirements.txt
 
 ***
 ***Python文件***
-* load_datasets.py
-* get_Embedding_FV.py
-* training_functions.py
-* pathScores_functions.py
-* snf_code.py
-* GIP.py
-* VHIs_Main_nn4.py
-* VHIs_Main_nn.py
+* load_datasets.py-->读取输入数据，包括交互和相似性
+* get_Embedding_FV.py--> 读取 node2vec 生成的嵌入并获取每个病毒和宿主的 FV（CV 随机种子 = 22）
+* training_functions.py-->用于几个训练和处理函数，例如 edgeList、Cosine_similarity、..
+* pathScores_functions.py-->计算并返回路径结构的所有路径分数
+* snf_code.py-->相似性网络融合函数
+* GIP.py--> 计算并返回gussian相似度
+* VHIs_Main_nn4.py-->4路径
+* VHIs_Main_nn.py-->3路径
 
 ## 运行
 ```
