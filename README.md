@@ -21,7 +21,7 @@ conda install --yes --file requirements.txt
 * Dataset Ⅰ:728_129
 * Dataset Ⅱ:32_119
 * Dataset Ⅲ:312_747
-* Dataset Ⅳ:1393_229<br>
+* Dataset Ⅳ:1380_221<br>
 
 其中每个数据集中都含有病毒宿主相互作用，病毒病毒相似性，宿主宿主相似性
 
@@ -39,19 +39,18 @@ conda install --yes --file requirements.txt
 * pathScores_functions.py-->计算并返回路径结构的所有路径分数
 * snf_code.py-->相似性网络融合函数
 * GIP.py--> 计算并返回gussian相似度
-* VHIs_Main_nn4.py-->4路径
-* VHIs_Main_nn.py-->3路径
+* VHIs_Main_ada.py-->3路径
 
 ## 运行
 ```
-python VHIs_Main_nn4.py --data 728_129
+python VHIs_Main_ada.py --data 728_129
 ```
 ```
-python VHIs_Main_nn4.py --data 32_119
+python VHIs_Main_ada.py --data 32_119
 ```
 ```
-python VHIs_Main_nn4.py --data 312_747
+python VHIs_Main_ada.py --data 312_747
 ```
 ```
-python VHIs_Main_nn.py  --data 1393_229
+python VHIs_Main_ada.py  --data 1380_221
 ```
