@@ -1,4 +1,4 @@
-# VHINFGE
+# VHINFGM
 
 ## 环境配置
 
