@@ -24,6 +24,7 @@ A folder containing four datasets：<br>
 * Dataset Ⅳ:1380_221<br>
 
 Each data set contains virus-host interactions, virus-virus similarity, and host-host similarity
+
 **2.Embedding folder：**
 There are also four folders for four data sets, and each folder contains the Node2Vec Embeddings file generated for each fold of the training data
 
