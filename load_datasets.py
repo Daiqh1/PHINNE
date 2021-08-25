@@ -32,8 +32,8 @@ def get_host_virus_names(HV):
 	host = sorted(list(set(host)))
 	VHIs = np.array(VHIs, dtype=np.float64)
 
-	print('Number of drugs:',len(host))
-	print('Number of targets:', len(virus))
+	print('Number of host:',len(host))
+	print('Number of virus:', len(virus))
 
 	return host, virus, VHIs
 #-------------------------------------------------------------------------
