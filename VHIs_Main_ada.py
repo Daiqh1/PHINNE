@@ -59,7 +59,7 @@ def main():
                                                    class_weight='balanced'), algorithm="SAMME", n_estimators=90,
                             random_state=32)
 
-    # 4-Adaboost classifier
+    # 4-Xgboost classifier
     xgb = XGBClassifier(learning_rate=0.1,
                         n_estimators=1000,
                         max_depth=5,
