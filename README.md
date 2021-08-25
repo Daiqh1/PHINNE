@@ -14,7 +14,7 @@ conda install --yes --file requirements.txt
 
 ***
 ## Document describing
-***There are three files***<br>
+***There are three folders***<br>
 
 **1.Input folder：**
 A folder containing four datasets：<br>
