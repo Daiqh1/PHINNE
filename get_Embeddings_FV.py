@@ -13,9 +13,9 @@ def get_FV_host_virus(foldCounter,allV,allH, data):
         for line in f:
             line = line.split()
             line[0]= line[0].replace(":","")
-            # take the protien name as key (like dictionary)
+            
             key = line[0]
-            # remove the protien name to take the remaining 128 features
+            
             line.pop(0)
             if key in allV:
                 virus[key] = line
