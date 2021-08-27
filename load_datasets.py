@@ -6,7 +6,7 @@ import collections
 def parse_args():
 
 	parser = argparse.ArgumentParser(description="Run VHIs code")
-	parser.add_argument('--data', type=str, default='312_747',  help='choose one of the datasets 728_129 32_119 312_747')
+	parser.add_argument('--data', type=str, default='312_747',  help='choose one of the datasets 728_129 32_119 312_747 1380_221')
 
 	return parser.parse_args()
 #-----------------------------------------
