@@ -46,8 +46,8 @@ def main():
     #-----------------------------------------
     ###### Define different classifiers
 
-    # 1-Neural Network
-    NN = MLPClassifier(activation='relu', solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(10, 2), random_state=1)
+    # 1-Random Forest
+    rf = RandomForestClassifier(n_estimators=200, n_jobs=10, random_state=55, class_weight='balanced', criterion='gini')
 
     # 2-Neural Network
     NN = MLPClassifier(activation='relu', solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(10, 2), random_state=1)
